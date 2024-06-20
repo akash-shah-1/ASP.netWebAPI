@@ -86,7 +86,7 @@ namespace api.Controller
             dbContext.Stock.Remove(stockModel);
             dbContext.SaveChanges();
             return Ok(new{
-            message = "Stock Deleted Successfully 😊 "
+            message = "Stock Deleted Successfully "
             });
         }
     }
